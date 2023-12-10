@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Weather App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head> <!-- niche div wali line ki style jo google se liya h usi me se style.css bhi  copy kr liya hai 0this weather style line has been taken from google -->
+  <style>.gm7Ysb{color:#70757a}.nG7hRb{color:#70757a}.mh8jsf{color:#1a0dab;display:inline;padding:20px 0 12px 0}.HzHK1{white-space:nowrap}.O4T6Pe .bWHbab{height:48px;width:48px;position:relative;display:inline;flex-shrink:0;margin-left:16px;margin-right:32px}.O4T6Pe .itmdEc{color:#70757a;position:absolute;margin-top:1px}.rsGxI.Ww4FFb,.Ww4FFb{background-color:#fff;border-radius:0px;border-width:0px;box-shadow:0px}.Ww4FFb .mnr-c,.mnr-c .Ww4FFb,.Ww4FFb .Ww4FFb{box-shadow:none;margin-bottom:0px}.vt6azd{margin:0px 0px 8px;margin:0px 0px 30px;}.TPKH4e{padding:12px 16px 16px 0}.O4T6Pe{position:relative}.vqkKIe{margin-right:8px;padding-right:12px;display:flex;margin-left:-16px;padding-left:16px;align-items:baseline}.eKPi4{padding-bottom:7px;display:inline-block;overflow:hidden;padding-top:4px;text-overflow:ellipsis;white-space:nowrap}.eakexd{display:inline;flex-shrink:0}.V8fWH{border:0;clip:rect(0 0 0 0);-webkit-clip-path:polygon(0 0,0 0,0 0);clip-path:polygon(0 0,0 0,0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;white-space:nowrap;-webkit-appearance:none;appearance:none;z-index:-1000;-webkit-user-select:none;user-select:none}.gW7zSc{display:block}@media (min-height:576px){.uSolm .qk7LXc{height:100%}.uSolm{padding:64px 0px}}@media (max-height:575px){.uSolm .qk7LXc{height:100%;max-height:448px}}@media (min-height:496px){.GeOznc .qk7LXc{height:100%}.GeOznc{padding:24px 0px}}@media (max-height:495px){.GeOznc .qk7LXc{height:100%;max-height:448px}}.KUf18.ivkdbf{background-color:rgba(0,0,0,0.6);opacity:1;visibility:inherit}.VfsLpf.ivkdbf{background-color:#000;opacity:.4;visibility:inherit}.J3Hnlf.ivkdbf{background-color:#202124;opacity:.7;visibility:inherit}.X46m8.ivkdbf{background-color:#000;opacity:.8;visibility:inherit}.cBoDed.ivkdbf{background-color:#f8f9fa;opacity:.85;visibility:inherit}.kyk7qb.ivkdbf{background-color:#202124;opacity:.6;visibility:inherit}.qk7LXc.ivkdbf{opacity:1}.mcPPZ.ivkdbf{opacity:1;visibility:inherit}.mcPPZ.nP0TDe{cursor:pointer}.mcPPZ.nP0TDe .qk7LXc{cursor:default}.kJFf0c{position:fixed;z-index:9997;right:0;bottom:-200px;top:0;left:0;-webkit-transition:opacity .25s;transition:opacity .25s;opacity:0;visibility:hidden}.qk7LXc{display:inline-block;z-index:9997;background-color:#fff;opacity:0;white-space:normal;overflow:hidden}.qk7LXc{border-radius:8px}.qk7LXc{box-shadow:0px 5px 26px 0px rgba(0,0,0,0.22),0px 20px 28px 0px rgba(0,0,0,0.3)}.qk7LXc.DJEOfc{background-color:transparent}.qk7LXc.DJEOfc{box-shadow:none}.qk7LXc.Fb1AKc{position:relative;vertical-align:middle}.qk7LXc.ulWzbd{position:absolute}.qk7LXc.P1WYLb{border:1px solid #dadce0;box-shadow:#dadce0}.mcPPZ{position:fixed;right:0;bottom:0;top:0;left:0;z-index:9997;vertical-align:middle;visibility:hidden;white-space:nowrap;max-height:100%;max-width:100%;overflow-x:hidden;overflow-y:auto}.mcPPZ.xg7rAe{text-align:center}.mcPPZ::after{content:"";display:inline-block;height:100%;vertical-align:middle}.mcPPZ{tap-highlight-color:rgba(0,0,0,0)}.LjfRsf{height:0;opacity:0;position:absolute;width:0}.VH47ed{visibility:hidden}.TaoyYc{overflow:hidden}.qk7LXc.aJPx6e{overflow:visible}.vAJJzd{opacity:.999}.yMNJR .qk7LXc{max-width:100%}.cJFqsd .qk7LXc{height:100%}.rfx2Y .qk7LXc{width:100%}.BhUHze .qk7LXc{width:75%}.dgVGnc .qk7LXc{width:90%}sentinel{}.v5jHUb{display:none}.ULSxyf{margin-bottom:44px}.hlcw0c{margin-bottom:44px}.wDYxhc{clear:both}.cUnQKe .wDYxhc,.related-question-pair .wDYxhc,.M8OgIe .fm06If .wDYxhc{clear:none}.Wnoohf .xpdclose .wDYxhc.xsZWvb,.Wnoohf .xpdopen .wDYxhc.EfDVh{padding-bottom:0}#rhs .Wnoohf .xpdclose .wDYxhc.xsZWvb,#rhs .Wnoohf .xpdopen .wDYxhc.EfDVh{padding-bottom:0}#rhs .Wnoohf .xpdclose .wDYxhc.xsZWvb.ecRggb,#rhs .Wnoohf .xpdopen .wDYxhc.EfDVh.ecRggb,#rhs .dG2XIf .ecRggb{padding-bottom:15px}.nawv0d{width:652px}.wtsRwe{color:#70757a;display:inline-block;font-size:12px;line-height:16px;padding-left:9px;padding-top:6px}.UQt4rd,.VQF4g{display:inline-block;vertical-align:top;width:50%}.VQF4g{text-align:right}.vk_bk{color:#202124}.Ab33Nc{display:inline-block;padding-left:10px;vertical-align:top}.wob_tci{display:inline-block;height:60px;margin-top:unset;vertical-align:top;width:60px}.wob-unit{color:#202124;display:inline-block;font-size:16px;line-height:24px;margin-top:6px;padding-left:6px;vertical-align:top}.wob-unit a.wob_t{color:#70757a}.Az4ne{border-left:solid 1px #70757a;margin:0 4px}.TylWce{color:#202124;display:inline-block;vertical-align:top}.TylWce.TylWce{letter-spacing:normal}.wob_loc{color:#202124;font-size:22px;line-height:26px}.wob_dts,.wob_dcp{color:#70757a;font-size:16px;line-height:20px}.WQNOrf{border-left:1px solid #dadce0;margin:0 11px}.ksb{color:#202124;display:inline-block;cursor:pointer;font-size:14px;line-height:1.58}.ksbs{border-bottom:3px solid #fbbc04;cursor:default;padding-bottom:4px}.R3Y3ec{position:relative;overflow:hidden;z-index:0}.wob_tg #wob_gsvg{display:block}#wob_gsp{-webkit-tap-highlight-color:transparent;height:120px;left:0;top:0}.wob_nh{position:absolute;text-align:center;top:50%;width:100%;display:none}.DYO8ie{margin-top:10px}.wob_gsvg{cursor:pointer}#wob_pg .wob_hw,#wob_wg .wob_hw{-webkit-box-orient:vertical;-webkit-box-pack:justify;-webkit-flex-pack:justify;align-items:center;-ms-flex-direction:column;flex-direction:column;justify-content:space-between;display:-ms-flexbox;display:-webkit-box;display:flex;text-align:center;width:58px}.QrNVmd{color:#70757a}.wob_tg #wob_pg,.wob_tg #wob_wg,.wob_p #wob_gsvg,.wob_p #wob_wg,.wob_w #wob_pg,.wob_w #wob_gsvg{display:none}.rr3bxd{cursor:pointer;margin-bottom:-1px;padding:0;padding-bottom:1px}.wob_dfc{padding-top:7px;white-space:nowrap}.wob_df{-webkit-transition-duration:200ms,200ms,200ms;-webkit-transition-property:background-image,border,font-weight;display:inline-block;height:95px;line-height:1;margin-right:7px;text-align:center;width:75px}.wob_ds{background-color:#f8f9fa;border-radius:10px}.Z1VzSb{color:#202124;line-height:15px;padding-top:7px}.DxhUm{display:inline-block}.uW5pk{height:48px;margin:1px 4px 0;width:48px}.wNE31c{font-size:13px;font-weight:normal;line-height:15px}.gNCp2e{color:#202124;display:inline-block;padding-right:5px}.ZXCv8e{display:inline-block}.xKf9F{margin-top:16px}#rhs .KFFQ0c,.xpd-wa .KFFQ0c{display:none}.KFFQ0c{align-items:center;display:flex;margin-bottom:0px;width:652px}.akqY6{background:#dadce0;height:1px;width:100%}.KFFQ0c .YfftMc,.KFFQ0c .YfftMc span,.KFFQ0c .YfftMc div,.KFFQ0c .YfftMc a{align-items:center;color:#70757a;display:flex;font-size:12px;font-style:normal;margin:0;padding:0;white-space:nowrap}.KFFQ0c .YfftMc{flex-shrink:0;margin-left:14px}g-img{display:block}g-img{height:100%}.YQ4gaf{display:block;border:0}.u9wH7d .YQ4gaf{object-fit:fill}.mNsIhb .YQ4gaf{object-fit:cover}.tb08Pd .YQ4gaf{object-fit:contain}.mWcf0e{cursor:pointer}.VfL2Y{position:relative;}.YQpX9d{cursor:pointer;position:relative;}.LRZwuc{display:inline-block}.nKHyTc{color:#70757a;float:right;font-size:12px;line-height:16px;padding-bottom:4px}.eDGqNd{color:#70757a;float:right;font-size:12px;line-height:16px}.k62gjb:hover,.k62gjb .W7GCoc:hover{text-decoration:underline}sentinel{}</style>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Weather App</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About This App</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Search Weather</a></li>
+                  <li><a class="dropdown-item" href="#"> For knowladge </a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Made By Neelam</a></li>
+                  <li><a class="dropdown-item" href="#"> Also You Can Search All cities Weather</a></li>
+                </ul>
+              </li>
+              
+            <form class="d-flex"role="search">
+              <input id="city" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit" id="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      
+       <h1  class=" my-4 text-center"> Weather For <span id="cityName"></span></h1>
+
+<div class="container">
+    <main>
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+              <div class="card-header py-3 text-bg-primary border-primary">
+                <h4 class="w-100 btn btn-lg btn-primary">Tempratures info</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title"><span id="temp"></span><small class="text-muted fw-light"> <span>&#8451;</span></small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li> Temprature is <span id="T_temp0"></span></li>
+                  <li>Min Temprature is <span id="T_mintemp0"></span></li>
+                  <li>Max Temprature is <span id="T_maxtemp0"></span></li>
+                  
+                </ul>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+              <div class="card-header py-3 text-bg-primary border-primary">
+                <h4 class="w-100 btn btn-lg btn-primary">Humidity info</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title"><span id="humidity"></span><small class="text-muted fw-light"> % </small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Cloud PCT is <span id="T_cloudpct0"></span></li>
+                  <li>Feels Like <span id="T_feelslike0"></span></li>
+                  <li>Humidity is <span id="T_humidity0"></span></li>
+                 
+                </ul>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+              <div class="card-header py-3 text-bg-primary border-primary">
+                <h4 class="my-0 fw-normal">Wind info</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title"><span id="windspeed"></span>M/S<small class="text-body-secondary fw-light"> km/hr </small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Wind_Degree is <span id="T_windeg0"></span></li>
+                  <li>Wind Speed is <span id="T_windspeed0"></span></li>
+                  <li>Sunrise Time is <span id="T_sunrise0"></span></li>
+                  <li>Sunset Time is <span id="T_sunset0"></span></li>
+                </ul>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <!--this weather div line has been taken from google-->
+        <div display="flex"><div class="wob_dfc" id="wob_dp" data-ved="2ahUKEwiQurHL5IGDAxUG-jgGHboODRcQimt6BAgOEAk" style="left: 50px; top: 50px; transform: translate3d(0px, 0px, 0px);"><div class="wob_df wob_ds" data-wob-di="0" role="button" tabindex="0" data-ved="2ahUKEwiQurHL5IGDAxUG-jgGHboODRcQi2soAHoECA4QCg"><div class="Z1VzSb" aria-label="Saturday">Sat</div><div class="DxhUm"><g-img class="uW5pk"><img id="dimg_1" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAQBJREFUaN7t2csNwyAMBmBGYYSMwhgdgxEYjRW6ARu4HNyqB0CKednElf5b2/hLSALGAICRHKMABSjgUMDdD7xfLifkxByoJOJ33O3/nwHIhVgsKDWKriXhb+0WQD6wJxZegvhlADzrcUDhpeFlpwLyAa5BZ711Na4pgAXFNxFdABw2K4r/R9iRgLiw+N89MQSATxvYFN8F2DB0qkOJCggbi/8m9AASA0AiAXBuA0ziKIDACBAogMgIECkAYBUFKEABzwOIf4yKf5HJnkqIn8wxmk775y5oxC8pj1jUH9FWEd/YOqK1eERz94j2euFqUCF7NzjYbzHpLqUCFKCAJfkAq7RimK7qUtAAAAAASUVORK5CYII=" class="YQ4gaf zr758c" alt="Sunny" data-csiid="12" data-atf="1"></g-img></div><div class="wNE31c"><div class="gNCp2e"><span class="wob_t" style="display:inline">24</span><span class="wob_t" style="display:none">75</span>°</div><div class="QrNVmd ZXCv8e"><span class="wob_t" style="display:inline">12</span><span class="wob_t" style="display:none">54</span>°</div></div></div><div class="wob_df" data-wob-di="1" role="button" tabindex="0" data-ved="2ahUKEwiQurHL5IGDAxUG-jgGHboODRcQi2soAXoECA4QCw"><div class="Z1VzSb" aria-label="Sunday">Sun</div><div class="DxhUm"><g-img class="uW5pk"><img id="dimg_3" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAQBJREFUaN7t2csNwyAMBmBGYYSMwhgdgxEYjRW6ARu4HNyqB0CKednElf5b2/hLSALGAICRHKMABSjgUMDdD7xfLifkxByoJOJ33O3/nwHIhVgsKDWKriXhb+0WQD6wJxZegvhlADzrcUDhpeFlpwLyAa5BZ711Na4pgAXFNxFdABw2K4r/R9iRgLiw+N89MQSATxvYFN8F2DB0qkOJCggbi/8m9AASA0AiAXBuA0ziKIDACBAogMgIECkAYBUFKEABzwOIf4yKf5HJnkqIn8wxmk775y5oxC8pj1jUH9FWEd/YOqK1eERz94j2euFqUCF7NzjYbzHpLqUCFKCAJfkAq7RimK7qUtAAAAAASUVORK5CYII=" class="YQ4gaf zr758c" alt="Sunny" data-csiid="13" data-atf="1"></g-img></div><div class="wNE31c"><div class="gNCp2e"><span class="wob_t" style="display:inline">23</span><span class="wob_t" style="display:none">73</span>°</div><div class="QrNVmd ZXCv8e"><span class="wob_t" style="display:inline">11</span><span class="wob_t" style="display:none">51</span>°</div></div></div><div class="wob_df" data-wob-di="2" role="button" tabindex="0" data-ved="2ahUKEwiQurHL5IGDAxUG-jgGHboODRcQi2soAnoECA4QDA"><div class="Z1VzSb" aria-label="Monday">Mon</div><div class="DxhUm"><g-img class="uW5pk"><img id="dimg_5" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAQBJREFUaN7t2csNwyAMBmBGYYSMwhgdgxEYjRW6ARu4HNyqB0CKednElf5b2/hLSALGAICRHKMABSjgUMDdD7xfLifkxByoJOJ33O3/nwHIhVgsKDWKriXhb+0WQD6wJxZegvhlADzrcUDhpeFlpwLyAa5BZ711Na4pgAXFNxFdABw2K4r/R9iRgLiw+N89MQSATxvYFN8F2DB0qkOJCggbi/8m9AASA0AiAXBuA0ziKIDACBAogMgIECkAYBUFKEABzwOIf4yKf5HJnkqIn8wxmk775y5oxC8pj1jUH9FWEd/YOqK1eERz94j2euFqUCF7NzjYbzHpLqUCFKCAJfkAq7RimK7qUtAAAAAASUVORK5CYII=" class="YQ4gaf zr758c" alt="Clear" data-csiid="14" data-atf="1"></g-img></div><div class="wNE31c"><div class="gNCp2e"><span class="wob_t" style="display:inline">22</span><span class="wob_t" style="display:none">72</span>°</div><div class="QrNVmd ZXCv8e"><span class="wob_t" style="display:inline">9</span><span class="wob_t" style="display:none">49</span>°</div></div></div><div class="wob_df" data-wob-di="3" role="button" tabindex="0" data-ved="2ahUKEwiQurHL5IGDAxUG-jgGHboODRcQi2soA3oECA4QDQ"><div class="Z1VzSb" aria-label="Tuesday">Tue</div><div class="DxhUm"><g-img class="uW5pk"><img id="dimg_7" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAQBJREFUaN7t2csNwyAMBmBGYYSMwhgdgxEYjRW6ARu4HNyqB0CKednElf5b2/hLSALGAICRHKMABSjgUMDdD7xfLifkxByoJOJ33O3/nwHIhVgsKDWKriXhb+0WQD6wJxZegvhlADzrcUDhpeFlpwLyAa5BZ711Na4pgAXFNxFdABw2K4r/R9iRgLiw+N89MQSATxvYFN8F2DB0qkOJCggbi/8m9AASA0AiAXBuA0ziKIDACBAogMgIECkAYBUFKEABzwOIf4yKf5HJnkqIn8wxmk775y5oxC8pj1jUH9FWEd/YOqK1eERz94j2euFqUCF7NzjYbzHpLqUCFKCAJfkAq7RimK7qUtAAAAAASUVORK5CYII=" class="YQ4gaf zr758c" alt="Clear" data-csiid="15" data-atf="1"></g-img></div><div class="wNE31c"><div class="gNCp2e"><span class="wob_t" style="display:inline">22</span><span class="wob_t" style="display:none">72</span>°</div><div class="QrNVmd ZXCv8e"><span class="wob_t" style="display:inline">10</span><span class="wob_t" style="display:none">50</span>°</div></div></div><div class="wob_df" data-wob-di="4" role="button" tabindex="0" data-ved="2ahUKEwiQurHL5IGDAxUG-jgGHboODRcQi2soBHoECA4QDg"><div class="Z1VzSb" aria-label="Wednesday">Wed</div><div class="DxhUm"><g-img class="uW5pk"><img id="dimg_9" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAQBJREFUaN7t2csNwyAMBmBGYYSMwhgdgxEYjRW6ARu4HNyqB0CKednElf5b2/hLSALGAICRHKMABSjgUMDdD7xfLifkxByoJOJ33O3/nwHIhVgsKDWKriXhb+0WQD6wJxZegvhlADzrcUDhpeFlpwLyAa5BZ711Na4pgAXFNxFdABw2K4r/R9iRgLiw+N89MQSATxvYFN8F2DB0qkOJCggbi/8m9AASA0AiAXBuA0ziKIDACBAogMgIECkAYBUFKEABzwOIf4yKf5HJnkqIn8wxmk775y5oxC8pj1jUH9FWEd/YOqK1eERz94j2euFqUCF7NzjYbzHpLqUCFKCAJfkAq7RimK7qUtAAAAAASUVORK5CYII=" class="YQ4gaf zr758c" alt="Sunny" data-csiid="16" data-atf="1"></g-img></div><div class="wNE31c"><div class="gNCp2e"><span class="wob_t" style="display:inline">22</span><span class="wob_t" style="display:none">72</span>°</div><div class="QrNVmd ZXCv8e"><span class="wob_t" style="display:inline">11</span><span class="wob_t" style="display:none">52</span>°</div></div></div><div class="wob_df" data-wob-di="5" role="button" tabindex="0" data-ved="2ahUKEwiQurHL5IGDAxUG-jgGHboODRcQi2soBXoECA4QDw"><div class="Z1VzSb" aria-label="Thursday">Thu</div><div class="DxhUm"><g-img class="uW5pk"><img id="dimg_11" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAdVJREFUaN7tmc1thDAQRimBElwCJVBCSvAxR5fgEiiBEiiBErhyIx24A2cc2WhiAf4ZA1rJkZ4UZZPN9/AwHrON1rr5ZJoqUAWqQBWoAlWgxJf++WaAAGZAAdpD2dfM7zDS/yopAGE6YDoIHMLIdK8KQIAWGIAtQ8Bh/r59bQWQjCBILCkSJIF1XVuAA9Jivm9ROd0ukS0AQTtgA7SH+Vn31EoEBSAMA2YUUAHiJDyWcCtBuidIArZEroJewVEpjQSJjiIgMsMbpHdjf53sCcEWSxEYCQKOyZQhkshZBZYkYEtHeLVPQSGJnHIS0QI2/FIo+L+VILTXOUVA3BD+D3Q/pAqoFIEebUxFQQLJN/Ojo0TEqDG/JgBv1hdgeVNAP4CKPSvkCKiCQc1KSMRs2+x902hO/Z4cYFhgWOQHY8zo9hOKgCCGH71BEXcqHjEBKDft5gowypVH4YeLgKE9ZSO10cxz7z7TFJqxOEUgZxyYbPi+0M4uSRuZPYCnCPBA6TwrYCWWyFbJImo/FTMpM6pAG5CYvDO0LDii7x2JNAtdSGxuQyp41Q87UqkHW8NJzYsbw+8d6Y5Hi+7qbw8IyOIPd9HRVD8qUD8fqAJVoApUgSrwqfwCJ6xaZshM+xMAAAAASUVORK5CYII=" class="YQ4gaf zr758c" alt="Mostly Cloudy" data-csiid="17" data-atf="1"></g-img></div><div class="wNE31c"><div class="gNCp2e"><span class="wob_t" style="display:inline">22</span><span class="wob_t" style="display:none">72</span>°</div><div class="QrNVmd ZXCv8e"><span class="wob_t" style="display:inline">10</span><span class="wob_t" style="display:none">50</span>°</div></div></div><div class="wob_df" data-wob-di="6" role="button" tabindex="0" data-ved="2ahUKEwiQurHL5IGDAxUG-jgGHboODRcQi2soBnoECA4QEA"><div class="Z1VzSb" aria-label="Friday">Fri</div><div class="DxhUm"><g-img class="uW5pk"><img id="dimg_13" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAYxJREFUaN7tmMERgyAQRS2BEizBEizBEiyBEizBEizBEiyB679Zgh1sLpsMIRgRAZOZdeYfNBPY94FdoCKi6p9VCYAACIAACIAAvF5OPgAUgBHACoAsrfxdVQmfpAAAOgCbE7irDUD3cwAA+oPAXXW3AABoAczs5MKuqwDnfSOhigJwsG4gDc9titDA/x8cNbkAPhbmzvcUMiEgwQDslNvJwr9RRvWpAFpP4xOAOjMAfRuJIAArt3vTYQEAEw3Awa8e55WVkeiuUQgBmD2ZQxUM/NVvLIDPeVM4+CQA603OXwZ4uq13MlEpLVah0wDqUADNDdzp/p7Gs5WYflDTvwMQgP4OgM2ey1zRdcSulgCY0gDGKoQTL9CJ3+00vbAO24zdjcY6rzhg78LcOabOKQCGBAAh6bhnwM0poNNVABU5R23V3wI5qAN7/ZszR8rOc4IKFrexXIDvPe22ya5VDq5bngs2dhTbrNcqBwAmUQIYiwNk2EPp0gBNrp2pXO4KgAAIgAAIgAAIgAC86wECCuvGtH3EIQAAAABJRU5ErkJggg==" class="YQ4gaf zr758c" alt="Cloudy" data-csiid="18" data-atf="1"></g-img></div><div class="wNE31c"><div class="gNCp2e"><span class="wob_t" style="display:inline">22</span><span class="wob_t" style="display:none">71</span>°</div><div class="QrNVmd ZXCv8e"><span class="wob_t" style="display:inline">11</span><span class="wob_t" style="display:none">52</span>°</div></div></div><div class="wob_df" data-wob-di="7" role="button" tabindex="0" data-ved="2ahUKEwiQurHL5IGDAxUG-jgGHboODRcQi2soB3oECA4QEQ"><div class="Z1VzSb" aria-label="Saturday">Sat</div><div class="DxhUm"><g-img class="uW5pk"><img id="dimg_15" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAdVJREFUaN7tmc1thDAQRimBElwCJVBCSvAxR5fgEiiBEiiBErhyIx24A2cc2WhiAf4ZA1rJkZ4UZZPN9/AwHrON1rr5ZJoqUAWqQBWoAlWgxJf++WaAAGZAAdpD2dfM7zDS/yopAGE6YDoIHMLIdK8KQIAWGIAtQ8Bh/r59bQWQjCBILCkSJIF1XVuAA9Jivm9ROd0ukS0AQTtgA7SH+Vn31EoEBSAMA2YUUAHiJDyWcCtBuidIArZEroJewVEpjQSJjiIgMsMbpHdjf53sCcEWSxEYCQKOyZQhkshZBZYkYEtHeLVPQSGJnHIS0QI2/FIo+L+VILTXOUVA3BD+D3Q/pAqoFIEebUxFQQLJN/Ojo0TEqDG/JgBv1hdgeVNAP4CKPSvkCKiCQc1KSMRs2+x902hO/Z4cYFhgWOQHY8zo9hOKgCCGH71BEXcqHjEBKDft5gowypVH4YeLgKE9ZSO10cxz7z7TFJqxOEUgZxyYbPi+0M4uSRuZPYCnCPBA6TwrYCWWyFbJImo/FTMpM6pAG5CYvDO0LDii7x2JNAtdSGxuQyp41Q87UqkHW8NJzYsbw+8d6Y5Hi+7qbw8IyOIPd9HRVD8qUD8fqAJVoApUgSrwqfwCJ6xaZshM+xMAAAAASUVORK5CYII=" class="YQ4gaf zr758c" alt="Mostly Cloudy" data-csiid="19" data-atf="1"></g-img></div><div class="wNE31c"><div class="gNCp2e"><span class="wob_t" style="display:inline">21</span><span class="wob_t" style="display:none">70</span>°</div><div class="QrNVmd ZXCv8e"><span class="wob_t" style="display:inline">12</span><span class="wob_t" style="display:none">53</span>°</div></div></div></div></div>
+         <hr>
+        <h2 class="display-6 text-center mb-4">Weather Of Other Common Places</h2>
+        
+    
+        <div class="table-responsive">
+          <table class="table text-center">
+            <thead>
+              <tr>
+                <th style="width: 34%;"></th>
+                <th style="width: 22%;">Cloud_pct</th>
+                <th style="width: 22%;">Feels_like</th>
+                <th style="width: 22%;">Humidity</th>
+                <th style="width: 22%;">Max_temp</th>
+                <th style="width: 22%;">Min_temp</th>
+                <th style="width: 22%;">Sunrise</th>
+                <th style="width: 22%;">Sunset</th>
+                <th style="width: 22%;">Temp</th>
+                <th style="width: 22%;">Wind_degrees</th>
+                <th style="width: 22%;">Wind_speed</th>
+
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row" id = "city1"  class="text-start">Mumbai</th>
+               
+                <td><span id="T_cloudpct1"></span></td>
+                <td><span id="T_feelslike1"></span></td>
+                <td><span id="T_humidity1"></span></td>
+                <td><span id="T_maxtemp1"></span></td>
+                <td><span id="T_mintemp1"></span></td>
+                <td><span id="T_sunrise1"></span></td>
+                <td><span id="T_sunset1"></span></td>
+                <td><span id="T_temp1"></span></td>
+                <td><span id="T_windeg1"></span></td>
+                <td><span id="T_windspeed1"></span></td>
+
+              </tr>
+              <tr>
+                <th scope="row" id = "city2" class="text-start">Jaipur</th>
+               
+                <td><span id="T_cloudpct2"></span></td>
+                <td><span id="T_feelslike2"></span></td>
+                <td><span id="T_humidity2"></span></td>
+                <td><span id="T_maxtemp2"></span></td>
+                <td><span id="T_mintemp2"></span></td>
+                <td><span id="T_sunrise2"></span></td>
+                <td><span id="T_sunset2"></span></td>
+                <td><span id="T_temp2"></span></td>
+                <td><span id="T_windeg2"></span></td>
+                <td><span id="T_windspeed2"></span></td>
+
+
+              </tr>
+            </tbody>
+    
+            <tbody>
+              <tr>
+                <th scope="row" id = "city3" class="text-start">Lucknow</th>
+                <td><span id="T_cloudpct3"></span></td>
+                <td><span id="T_feelslike3"></span></td>
+                <td><span id="T_humidity3"></span></td>
+                <td><span id="T_maxtemp3"></span></td>
+                <td><span id="T_mintemp3"></span></td>
+                <td><span id="T_sunrise3"></span></td>
+                <td><span id="T_sunset3"></span></td>
+                <td><span id="T_temp3"></span></td>
+                <td><span id="T_windeg3"></span></td>
+                <td><span id="T_windspeed3"></span></td>
+
+                
+              </tr>
+              <tr>
+                <th scope="row" id = "city4" class="text-start">Srinagar</th>
+               
+                <td><span id="T_cloudpct4"></span></td>
+                <td><span id="T_feelslike4"></span></td>
+                <td><span id="T_humidity4"></span></td>
+                <td><span id="T_maxtemp4"></span></td>
+                <td><span id="T_mintemp4"></span></td>
+                <td><span id="T_sunrise4"></span></td>
+                <td><span id="T_sunset4"></span></td>
+                <td><span id="T_temp4"></span></td>
+                <td><span id="T_windeg4"></span></td>
+                <td><span id="T_windspeed4"></span></td>
+
+              </tr>
+              <tr>
+                <th scope="row" id = "city5" class="text-start">Kolkata</th>
+               
+                <td><span id="T_cloudpct5"></span></td>
+                <td><span id="T_feelslike5"></span></td>
+                <td><span id="T_humidity5"></span></td>
+                <td><span id="T_maxtemp5"></span></td>
+                <td><span id="T_mintemp5"></span></td>
+                <td><span id="T_sunrise5"></span></td>
+                <td><span id="T_sunset5"></span></td>
+                <td><span id="T_temp5"></span></td>
+                <td><span id="T_windeg5"></span></td>
+                <td><span id="T_windspeed5"></span></td>
+
+              </tr>
+             
+            </tbody>
+          </table>
+        </div>
+      </main>
+
+</div>
+
+
+    <p>this is a Weather app you can search Weather anytime anywhere made by Neelam </p>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
